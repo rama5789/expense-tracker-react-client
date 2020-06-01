@@ -1,0 +1,28 @@
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding-inline-start: unset;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 20px;
+  color: white;
+}
+
+.main-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-links a:hover,
+.main-links a.active {
+  color: green;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
